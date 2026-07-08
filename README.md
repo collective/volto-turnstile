@@ -11,7 +11,7 @@ A volto add-on that integrates [Cloudflare Turnstile](https://www.cloudflare.com
 
 ## Features
 
-- Add a new subscriber to the Cloudflare Turnstile list.
+- Add a new `Cloudflare Turnstile Settings` Volto control panel.
 
 ## Screenshot
 
