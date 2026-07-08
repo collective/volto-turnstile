@@ -17,7 +17,7 @@ A volto add-on that integrates [Cloudflare Turnstile](https://www.cloudflare.com
 
 **Add-on Configuration Access**
 
-<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/volto-turnstile/refs/heads/main/docs/source/images/addon-configuration-turnstile-icon.png">
+<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/volto-turnstile/refs/heads/main/docs/source/images/addon-configuration-cloudflare-turnstile-icon.png">
 
 ---
 
