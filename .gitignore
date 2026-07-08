@@ -11,7 +11,6 @@ node_modules
 results
 yarn.lock
 /public
-README.md
 .npmrc
 .env
 *.code-workspace
