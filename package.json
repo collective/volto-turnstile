@@ -9,7 +9,9 @@
     "volto",
     "plone",
     "react",
-    "Cloudflare Turnstile"
+    "Cloudflare",
+    "Turnstile",
+    "integration"
   ],
   "author": "Leonardo J. Caballero G.",
   "homepage": "https://github.com/collective/volto-turnstile#readme",

@@ -2,8 +2,11 @@
 name = "Volto_Turnstile_Documentation"
 description = "A volto add-on that integrates Cloudflare Turnstile service with Plone"
 keywords = [
-    "Volto Cloudflare Turnstile",
+    "Cloudflare",
+    "Turnstile",
+    "integration",
     "documentation",
+    "Volto",
     "Plone",
     "Diátaxis",
 ]
