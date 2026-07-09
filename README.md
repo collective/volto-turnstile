@@ -13,6 +13,8 @@ A volto add-on that integrates [Cloudflare Turnstile](https://www.cloudflare.com
 
 - Add a new `Cloudflare Turnstile Settings` Volto control panel.
 
+- Add a new `Turnstile Widget` component.
+
 ## Screenshot
 
 **Add-on Configuration Access**
@@ -125,6 +127,21 @@ yarn start
 
 Visit http://localhost:3000/ in a browser, login, and check the awesome new features.
 
+## Use it
+
+To implement the `TurnstileWidget` component, you need use the following source code:
+
+```js
+import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget/TurnstileWidget';
+
+<TurnstileWidget
+  siteKey="1x00000000000000000000AA"
+  className="my-turnstile"
+  style={{ marginTop: '1rem' }}
+  options={{ theme: 'light', size: 'flexible' }}
+  onSuccess={(token) => handleToken(token)}
+/>
+```
 
 ## Development
 
