@@ -115,4 +115,3 @@ const TurnstileWidget = forwardRef(function TurnstileWidget(
 });
 
 export default TurnstileWidget;
-
