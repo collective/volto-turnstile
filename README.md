@@ -143,6 +143,10 @@ import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget/Turnstil
 />
 ```
 
+This will generate a `Cloudflare Turnstile` widget that can be used in a form, as shown below:
+
+<img width="390" alt="Cloudflare Turnstile widget" src="https://raw.githubusercontent.com/collective/volto-turnstile/refs/heads/main/docs/source/images/cloudflare-turnstile-widget.png">
+
 ## Development
 
 The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other Volto core improvements.
