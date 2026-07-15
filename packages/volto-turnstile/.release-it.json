@@ -11,7 +11,7 @@
       "git add ../../CHANGELOG.md ../../package.json"
     ],
     "after:release": [
-      "bash -c 'source ./.env && curl -X POST -H \"Authorization: token $GITHUB_TOKEN\" -H \"Accept: application/vnd.github.v3+json\" https://api.github.com/repos/collective/volto-turnstile/releases -d \"{\\\"tag_name\\\":\\\"${version}\\\",\\\"name\\\":\\\"${version}\\\",\\\"body\\\":\\\"$(cat ../../.changelog.draft | sed \\\"s/\\\"/\\\\\\\\\\\"/g\\\" | sed \\\":a;N;$!ba;s/\\n/\\\\\\\\n/g\\\")\\\",\\\"prerelease\\\":${isPreRelease}}\"'",
+      "bash -c 'source ../../.env && curl -X POST -H \"Authorization: token $GITHUB_TOKEN\" -H \"Accept: application/vnd.github.v3+json\" https://api.github.com/repos/collective/volto-turnstile/releases -d \"{\\\"tag_name\\\":\\\"${version}\\\",\\\"name\\\":\\\"${version}\\\",\\\"body\\\":\\\"$(cat ../../.changelog.draft | sed \\\"s/\\\"/\\\\\\\\\\\"/g\\\" | sed \\\":a;N;$!ba;s/\\n/\\\\\\\\n/g\\\")\\\",\\\"prerelease\\\":${isPreRelease}}\"'",
       "rm .changelog.draft README.md"
     ]
   },
