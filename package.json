@@ -1,6 +1,6 @@
 {
   "name": "volto-turnstile",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.0",
   "description": "A volto add-on that integrates Cloudflare Turnstile service with Plone",
   "author": "Leonardo J. Caballero G.",
   "homepage": "https://github.com/collective/volto-turnstile#readme",
