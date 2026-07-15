@@ -43,6 +43,9 @@ importers:
       release-it:
         specifier: ^17.1.1
         version: 17.1.1(typescript@5.9.3)
+      stylelint:
+        specifier: ^16.0.0
+        version: 16.25.0(typescript@5.9.3)
 
   core/packages/client:
     dependencies:

@@ -58,6 +58,7 @@
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0",
+    "stylelint": "^16.0.0",
     "release-it": "^17.1.1",
     "babel-plugin-formatjs": "^11.3.15"
   },
