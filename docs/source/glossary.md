@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "Terms and definitions used throughout the Plone Sphinx Theme documentation."
-    "property=og:description": "Terms and definitions used throughout the Plone Sphinx Theme documentation."
+    "description": "Terms and definitions used throughout the Cloudflare Turnstile integration with Volto documentation."
+    "property=og:description": "Terms and definitions used throughout the Cloudflare Turnstile integration with Volto documentation."
     "property=og:title": "Glossary"
-    "keywords": "Plone, documentation, glossary, term, definition"
+    "keywords": "Plone, Cloudflare Turnstile, Volto documentation, glossary, term, definition"
 ---
 
 This glossary provides example terms and definitions relevant to **Volto Cloudflare Turnstile**.

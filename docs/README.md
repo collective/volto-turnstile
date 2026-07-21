@@ -1,7 +1,7 @@
-# Volto Cloudflare Turnstile
+# Cloudflare Turnstile integration with Volto
 
-Documentation for Volto Cloudflare Turnstile.
-A volto add-on that integrates Cloudflare Turnstile service with Plone
+Documentation for Cloudflare Turnstile integration with Volto.
+A volto add-on that integrates Cloudflare Turnstile service with Volto
 
 This project provides a Sphinx-based documentation environment for your Plone project, powered by the [Plone Sphinx Theme](https://github.com/plone/plone-sphinx-theme).
 It's generated using the `documentation_starter` template from [Cookieplone](https://github.com/plone/cookieplone).
@@ -59,7 +59,7 @@ make help
 ```
 
 
-## Customize the Volto Cloudflare Turnstile documentation
+## Customize the Cloudflare Turnstile integration with Volto documentation
 
 This section provides how-to guidance to customize your documentation.
 

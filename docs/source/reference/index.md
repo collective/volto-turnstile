@@ -1,23 +1,20 @@
 ---
 myst:
   html_meta:
-    "description": "Volto Cloudflare Turnstile Reference"
-    "property=og:description": "Volto Cloudflare Turnstile Reference"
-    "property=og:title": "Volto Cloudflare Turnstile Reference"
-    "keywords": "Plone, _Volto Cloudflare Turnstile,_ reference"
+    "description": "Cloudflare Turnstile integration with Volto Reference"
+    "property=og:description": "Cloudflare Turnstile integration with Volto Reference"
+    "property=og:title": "Cloudflare Turnstile integration with Volto Reference"
+    "keywords": "Plone, _Cloudflare Turnstile integration with Volto,_ reference"
 ---
 
 # Reference
 
 This part of the documentation contains reference material, including APIs, configuration values, and environment variables.
 
-> Reference guides are technical descriptions of the machinery and how to operate it.
-> Reference material is information-oriented.
+## Cloudflare Turnstile
 
-```{seealso}
-https://diataxis.fr/reference/
-```
+-   [Home page](https://acumbamail.com/).
 
-## Configuration
+-   [Official API Acumbamail Documentation](https://acumbamail.com/apidoc/).
 
--   {doc}`plone:contributing/documentation/themes-and-extensions`
+-   The [addSubscriber](https://acumbamail.com/apidoc/function/addSubscriber/), is the Acumbamail endpoints that using.

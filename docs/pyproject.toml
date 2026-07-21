@@ -1,28 +1,33 @@
 [project]
-name = "Volto_Turnstile_Documentation"
-description = "A volto add-on that integrates Cloudflare Turnstile service with Plone"
+name = "volto_turnstile_documentation"
+description = "An integration for the Cloudflare Turnstile service with Volto"
+readme = "README.md"
+license = "CC-BY-4.0"
+license-files = ["LICENSE.md"]
+authors = [
+    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
+]
+maintainers = [
+    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
+]
 keywords = [
+    "CMS",
+    "Volto",
+    "React",
     "Cloudflare",
     "Turnstile",
     "integration",
     "documentation",
-    "Volto",
-    "Plone",
-    "Diátaxis",
 ]
 version="1.0.0"
-readme = "README.md"
 requires-python = ">=3.10,<3.14"
-license = "CC-BY-4.0"
-license-files = ["LICENSE.md"]
-maintainers = [
-    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
-]
-authors = [
-    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
-]
 classifiers = [
     "Development Status :: 1 - Planning",
+    "Environment :: Web Environment",
+    "Framework :: Plone",
+    "Framework :: Plone :: 6.0",
+    "Framework :: Plone :: 6.1",
+    "Framework :: Plone :: Addon",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
@@ -30,6 +35,9 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Communications :: Email :: Mailing List Servers",
+    "Topic :: Internet :: WWW/HTTP",
 ]
 
 [dependency-groups]
@@ -58,7 +66,10 @@ dev = [
 
 [project.urls]
 Repository = "https://github.com/collective/volto-turnstile"
-Documentation = "https://MY_READTHEDOCS_PROJECT_SLUG.readthedocs.io/"
+Source = "https://github.com/collective/volto-turnstile"
+Tracker = "https://github.com/collective/volto-turnstile/issues"
+Documentation = "https://volto-turnstile.readthedocs.io/"
+Changelog = "https://github.com/collective/volto-turnstile/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["setuptools"]

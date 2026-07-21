@@ -3,20 +3,37 @@ myst:
   html_meta:
     "description": "A volto add-on that integrates Cloudflare Turnstile service with Plone"
     "property=og:description": "A volto add-on that integrates Cloudflare Turnstile service with Plone"
-    "property=og:title": "Volto Cloudflare Turnstile"
-    "keywords": "Volto Cloudflare Turnstile, documentation, A volto add-on that integrates Cloudflare Turnstile service with Plone"
+    "property=og:title": "Cloudflare Turnstile integration with Volto"
+    "keywords": "Cloudflare Turnstile integration with Volto, documentation, A volto add-on that integrates Cloudflare Turnstile service with Plone"
 ---
 
-# Volto Cloudflare Turnstile
+# Cloudflare Turnstile integration with Volto
 
-Welcome to the documentation for Volto Cloudflare Turnstile!
-A volto add-on that integrates Cloudflare Turnstile service with Plone
+Welcome to the documentation for `Cloudflare Turnstile` integration with Volto!
 
-This scaffold provides a ready-to-use environment for creating comprehensive documentation for {term}`Plone` projects, based on {term}`Plone Sphinx Theme`.
+<img width="400" alt="Cloudflare Turnstile Logo" src="./_static/logo.svg">
 
-Built with Markedly Structured Text ({term}`MyST`), this environment supports rich formatting, directives, and extensions tailored for technical documentation.
+An integration for the `Cloudflare Turnstile` service with Volto integration.
 
-It's structured following the [Diátaxis](https://diataxis.fr/) documentation framework.
+---
+
+# Credits
+
+Developed with the support of:
+
+- [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
+
+  <img width="200" alt="IMD Logo" src="./images/imd-ayto-logo.svg">
+
+# Authors
+
+This product was developed by [Leonardo J. Caballero G.](https://github.com/macagua).
+
+<img width="70" alt="Leonardo J. Caballero G." src="https://avatars.githubusercontent.com/u/185395?v=4&size=100">
+
+# License
+
+The project is licensed under the MIT license.
 
 ```{toctree}
 :caption: How to guides
@@ -24,14 +41,15 @@ It's structured following the [Diátaxis](https://diataxis.fr/) documentation fr
 :hidden: true
 
 how-to-guides/index
+how-to-guides/security
 ```
 
 ```{toctree}
-:caption: Reference
+:caption: Concepts
 :maxdepth: 2
 :hidden: true
 
-reference/index
+concepts/index
 ```
 
 ```{toctree}
@@ -43,11 +61,12 @@ tutorials/index
 ```
 
 ```{toctree}
-:caption: Concepts
+:caption: Reference
 :maxdepth: 2
 :hidden: true
 
-concepts/index
+reference/index
+reference/development
 ```
 
 ```{toctree}
