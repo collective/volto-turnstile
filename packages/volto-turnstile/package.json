@@ -30,6 +30,7 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "dependencies": {
+    "@marsidev/react-turnstile": "^1.5.3",
     "@plone/components": "workspace:*"
   },
   "peerDependencies": {
@@ -39,8 +40,8 @@
     "react-intl": "^3.12.1"
   },
   "devDependencies": {
-    "@plone/types": "workspace:*",
     "@plone/scripts": "^3.6.1",
+    "@plone/types": "workspace:*",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "release-it": "^19.0.2"
