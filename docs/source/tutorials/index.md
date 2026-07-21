@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "Volto Cloudflare Turnstile Tutorials"
-    "property=og:description": "Volto Cloudflare Turnstile Tutorials"
-    "property=og:title": "Volto Cloudflare Turnstile Tutorials"
-    "keywords": "Plone, Volto Cloudflare Turnstile, tutorials"
+    "description": "Cloudflare Turnstile integration with Volto Tutorials"
+    "property=og:description": "Cloudflare Turnstile integration with Volto Tutorials"
+    "property=og:title": "Cloudflare Turnstile integration with Volto Tutorials"
+    "keywords": "Plone, Cloudflare Turnstile integration with Volto, Cloudflare, Turnstile, tutorials"
 ---
 
 # Tutorials

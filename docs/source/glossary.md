@@ -7,7 +7,7 @@ myst:
     "keywords": "Plone, Cloudflare Turnstile, Volto documentation, glossary, term, definition"
 ---
 
-This glossary provides example terms and definitions relevant to **Volto Cloudflare Turnstile**.
+This glossary provides example terms and definitions relevant to **Cloudflare Turnstile integration with Volto**.
 A volto add-on that integrates Cloudflare Turnstile service with Plone
 
 ```{note}

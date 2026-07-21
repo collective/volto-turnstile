@@ -17,20 +17,6 @@ This part of the documentation contains how-to guides, including installation an
 
 - Add a new `Turnstile Widget` component.
 
-## Screenshot
-
-**Add-on Configuration Access**
-
-<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/volto-turnstile/refs/heads/main/docs/source/images/addon-configuration-cloudflare-turnstile-icon.png">
-
----
-
-**Cloudflare Turnstile Settings control panel**
-
-<img width="720" alt="Cloudflare Turnstile Settings" src="https://raw.githubusercontent.com/collective/volto-turnstile/refs/heads/main/docs/source/images/cloudflare-turnstile-settings.png">
-
-## Backend integration
-
 To use this product in Plone CMS, you needs to include the following add-on in your project: https://github.com/collective/collective.volto.turnstile
 
 ## Translations
