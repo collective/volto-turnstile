@@ -1,19 +1,19 @@
 ---
 myst:
   html_meta:
-    "description": "A volto add-on that integrates Cloudflare Turnstile service with Plone"
-    "property=og:description": "A volto add-on that integrates Cloudflare Turnstile service with Plone"
+    "description": "An integration for the Cloudflare Turnstile service with Volto"
+    "property=og:description": "An integration for the Cloudflare Turnstile service with Volto"
     "property=og:title": "Cloudflare Turnstile integration with Volto"
-    "keywords": "Cloudflare Turnstile integration with Volto, documentation, A volto add-on that integrates Cloudflare Turnstile service with Plone"
+    "keywords": "Cloudflare, Turnstile, service, Volto, integration, documentation"
 ---
 
 # Cloudflare Turnstile integration with Volto
 
-Welcome to the documentation for `Cloudflare Turnstile` integration with Volto!
+Welcome to the documentation for {term}`Cloudflare Turnstile` integration with {term}`Volto`!
 
 <img width="400" alt="Cloudflare Turnstile Logo" src="./_static/logo.svg">
 
-An integration for the `Cloudflare Turnstile` service with Volto integration.
+An integration for the {term}`Cloudflare Turnstile` service with {term}`Volto` integration.
 
 ---
 

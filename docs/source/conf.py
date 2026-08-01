@@ -24,7 +24,7 @@ author = "Leonardo J. Caballero G."
 trademark_name = "collective"
 now = datetime.now()
 year = str(now.year)
-copyright = f"{year}"
+copyright = year  # noqa: A001
 
 
 # The version info for the project you're documenting, acts as replacement for
@@ -336,7 +336,7 @@ latex_documents = [
     (
         "index",
         "Cloudflare_Turnstile_integration_with_Volto_Documentation.tex",
-        "Volto Cloudflare Turnstile Documentation",
+        "Cloudflare Turnstile integration with Volto Documentation",
         author,
         "manual",
     ),

@@ -4,20 +4,19 @@ myst:
     "description": "Cloudflare Turnstile integration with Volto development guides"
     "property=og:description": "Cloudflare Turnstile Volto development guides"
     "property=og:title": "Cloudflare Turnstile integration with Volto development guides"
-    "keywords": "Volto, Cloudflare Turnstile integration with Volto, development, guides"
+    "keywords": "Cloudflare, Turnstile, service, Volto, integration, documentation, development, guides"
 ---
 
 # Development
 
-The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other Volto core improvements.
-For this reason, it only works with pnpm and Volto 18 (currently in alpha).
-
+The development of this  {term}`add-on` is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other {term}`Volto` core improvements.
+For this reason, it only works with pnpm and {term}`Volto` 18 (currently in alpha).
 
 ## Prerequisites ✅
 
 -   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
 -   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
--   [Node.js and pnpm](https://6.docs.plone.org/install/create-project.html#node-js) 22
+-   [Node.js and pnpm](https://6.docs.plone.org/install/create-project-cookieplone.html#node-js) 22
 -   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
 -   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
 -   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)

@@ -4,12 +4,13 @@ myst:
     "description": "Cloudflare Turnstile integration with Volto how-to guides"
     "property=og:description": "Cloudflare Turnstile Volto how-to guides"
     "property=og:title": "Cloudflare Turnstile integration with Volto how-to guides"
-    "keywords": "Plone, Cloudflare Turnstile integration with Volto, how-to, guides"
+    "keywords": "Cloudflare, Turnstile, service, Volto, integration, documentation, how-to, guides"
 ---
 
 # Security access
 
-The  `collective.volto.turnstile` add-on includes the following roles and permissions:
+The {term}`volto-turnstile` {term}`add-on` reusing the following roles and permissions from the
+{term}`collective.volto.turnstile` {term}`add-on`:
 
 ## Roles
 
@@ -20,6 +21,10 @@ The  `collective.volto.turnstile` add-on includes the following roles and permis
 - ``volto.turnstile: Manage Cloudflare Turnstile Settings`` permission (**NEW!!!**) grants access to the following roles:
 
   - ``Cloudflare Turnstile`` role.
+
+    ```{tip}
+    If to grant this role to a user, this inherited the permissions that included, and there are details bellow:
+    ```
 
 - The ``Plone Site Setup: Overview`` permission grants access to the `Site Setup: Overview ` view to the following roles:
 
