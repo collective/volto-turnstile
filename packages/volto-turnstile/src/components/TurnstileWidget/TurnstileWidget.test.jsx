@@ -319,10 +319,10 @@ describe('TurnstileWidget', () => {
 
   describe('scriptOptions prop', () => {
     it('passes scriptOptions to Turnstile', () => {
-      const scriptOptions = { nonce: 'abc123', appendTo: 'body', defer: false };
-      renderWidget({ scriptOptions });
+      const scriptoptions = { nonce: 'abc123', appendTo: 'body', defer: false };
+      renderWidget({ scriptoptions });
       expect(MockTurnstile).toHaveBeenCalledWith(
-        expect.objectContaining({ scriptOptions }),
+        expect.objectContaining({ scriptoptions }),
         null,
       );
     });
