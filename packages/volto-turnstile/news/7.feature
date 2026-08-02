@@ -1,0 +1,1 @@
+Added a helper function to use the TurnstileWidget component for this addon [macagua]

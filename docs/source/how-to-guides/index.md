@@ -15,9 +15,13 @@ This part of the documentation contains how-to guides, including installation an
 
 - Control panel in {term}`Plone` registry to manage {term}`Cloudflare Turnstile Settings`.
 
-- A Restricted RESTful API endpoint that exposes the {term}`Cloudflare Turnstile Settings` for {term}`Volto` _integration_.
+- Consume a Restricted RESTful API endpoint that exposes the {term}`Cloudflare Turnstile Settings` for {term}`Volto` _integration_.
 
-- A Public RESTful API endpoint to get the {term}`Site key` from the {term}`Cloudflare Turnstile Settings` settings.
+- Consume a Public RESTful API endpoint to get the {term}`Site key` from the {term}`Cloudflare Turnstile Settings` settings.
+
+- Add a custom hook for integrating the {term}`TurnstileWidget` component.
+
+- Add a React widget component {term}`TurnstileWidget` to protect your forms.
 
 ## Plone CMS integration
 
@@ -170,15 +174,24 @@ as the following:
 
 ```
 import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget/TurnstileWidget';
+import { useTurnstileWidget } from 'volto-turnstile/helpers/Utils/TurnstileWidget';
 import { useState, useRef } from 'react';
 ...
 
 const ContactForm = (props) => {
-  // Reference for the Turnstile widget
-  const turnstileRef = useRef(null);
   // State for storing the Turnstile token
   const [turnstileToken, setTurnstileToken] = useState(null);
   ...
+  // Turnstile widget integration using custom hook
+  const {
+    turnstileRef,
+    turnstileToken,
+    turnstileSiteKey,
+    handleSuccess,
+    handleExpire,
+    handleError,
+    resetTurnstile,
+  } = useTurnstileWidget();
 
   return (
     <form ...>
@@ -187,24 +200,19 @@ const ContactForm = (props) => {
         {/* Turnstile widget integrated into the form */}
         <TurnstileWidget
           ref={turnstileRef}
-          siteKey="1x00000000000000000000AA",
-          className="turnstile-widget"
+          siteKey={turnstileSiteKey}
+          className="turnstile-contact-form"
           style={{ marginTop: '1rem' }}
-          onSuccess={(token) => {
-            setTurnstileToken(token); // It is triggered when the user passes the validation
-          }}
-          onExpire={() => {
-            setTurnstileToken(null); // It restarts if the token expires
-          }}
-          onError={() => {
-            setTurnstileToken(null);
-            'Error in the anti-spam validation.',
-          }}
+          onSuccess={handleSuccess}
+          onExpire={handleExpire}
+          onError={handleError}
           options={{
             theme: 'light',
             size: 'normal',
           }}
         />
+        {/* Button to submit the form */}
+        ...
       </div>
     </form>
   );

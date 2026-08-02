@@ -11,9 +11,15 @@ A volto add-on that integrates [Cloudflare Turnstile](https://www.cloudflare.com
 
 ## Features
 
-- Add a new `Cloudflare Turnstile Settings` Volto control panel.
+- Control panel in `Plone` registry to manage `Cloudflare Turnstile Settings`.
 
-- Add a new `Turnstile Widget` component.
+- Consume a Restricted RESTful API endpoint that exposes the `Cloudflare Turnstile Settings` for `Volto` _integration_.
+
+- Consume a Public RESTful API endpoint to get the {term}`Site key` from the {term}`Cloudflare Turnstile Settings` settings.
+
+- Add a custom hook for integrating `Cloudflare Turnstile` widget component.
+
+- Add a React widget component `Cloudflare Turnstile` widget to protect your forms.
 
 ## Screenshot
 
