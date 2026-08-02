@@ -175,12 +175,9 @@ as the following:
 ```
 import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget/TurnstileWidget';
 import { useTurnstileWidget } from 'volto-turnstile/helpers/Utils/TurnstileWidget';
-import { useState, useRef } from 'react';
 ...
 
 const ContactForm = (props) => {
-  // State for storing the Turnstile token
-  const [turnstileToken, setTurnstileToken] = useState(null);
   ...
   // Turnstile widget integration using custom hook
   const {
