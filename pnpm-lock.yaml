@@ -30,9 +30,6 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
-      volto-turnstile:
-        specifier: workspace:*
-        version: link:packages/volto-turnstile
     devDependencies:
       babel-plugin-formatjs:
         specifier: ^11.3.15

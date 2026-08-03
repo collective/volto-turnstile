@@ -47,8 +47,7 @@
   "dependencies": {
     "@marsidev/react-turnstile": "^1.5.3",
     "@plone/volto": "workspace:*",
-    "@plone/registry": "workspace:*",
-    "volto-turnstile": "workspace:*"
+    "@plone/registry": "workspace:*"
   },
   "peerDependencies": {
     "react": "18.2.0",
