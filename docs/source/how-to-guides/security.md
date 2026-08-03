@@ -14,11 +14,21 @@ The {term}`volto-turnstile` {term}`add-on` reusing the following roles and permi
 
 ## Roles
 
-- ``Cloudflare Turnstile`` role (**NEW!!!**).
+- ``Cloudflare Turnstile`` role.
+
+  ```{note}
+  New feature inclueded in this {term}`add-on`.
+  ```
 
 ## Permissions
 
-- ``volto.turnstile: Manage Cloudflare Turnstile Settings`` permission (**NEW!!!**) grants access to the following roles:
+- ``volto.turnstile: Manage Cloudflare Turnstile Settings``
+
+  ```{note}
+  New feature inclueded in this {term}`add-on`.
+  ```
+
+  This permission grants access to the following roles:
 
   - ``Cloudflare Turnstile`` role.
 

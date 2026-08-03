@@ -27,13 +27,13 @@ Developed with the support of:
 
 # Authors
 
-This product was developed by [Leonardo J. Caballero G.](https://github.com/macagua).
+The original creator of this {term}`add-on` was [Leonardo J. Caballero G.](https://github.com/macagua).
 
 <img width="70" alt="Leonardo J. Caballero G." src="https://avatars.githubusercontent.com/u/185395?v=4&size=100">
 
 # License
 
-The project is licensed under the MIT license.
+The license for this {term}`add-on` is [MIT](https://raw.githubusercontent.com/collective/volto-turnstile/refs/heads/main/LICENSE).
 
 ```{toctree}
 :caption: How to guides

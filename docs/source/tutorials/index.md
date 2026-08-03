@@ -16,7 +16,7 @@ for the front end.
 ---
 
 (cloudflare-turnstile-settings-route)=
-## @cloudflare-turnstile-settings route
+## Cloudflare Turnstile settings route
 
 Anonymous users can't access registry resources by default with {term}`plone.restapi` (there is a special permission).
 
@@ -98,7 +98,7 @@ Via: waitress
 X-Powered-By: Zope (www.zope.dev), Python (www.python.org)
 ```
 
-That means you were updated the values in the {term}`Cloudflare Turnstile Settings` control panel fields correctly!
+That means you updated the values in the {term}`Cloudflare Turnstile Settings` control panel fields correctly.
 
 ```{note}
 You can validate the update operation, going to ``Site setup > Add-on Settings > Cloudflare Turnstile Settings``.
@@ -107,7 +107,7 @@ You can validate the update operation, going to ``Site setup > Add-on Settings >
 ---
 
 (cloudflare-turnstile-sitekey-route)=
-## @cloudflare-turnstile-sitekey route
+## Cloudflare Turnstile site_key route
 
 Anonymous users can access to the {term}`Site Key` registry resource by default with {term}`plone.restapi` (there is a Public permission).
 
@@ -129,4 +129,4 @@ This route returns a JSON object containing the {term}`Site Key` data via `curl`
 }
 ```
 
-This `route` can be used in for a {term}`Volto` _integration_ form componet.
+This `route` can be implements in {term}`Volto` _integration_ for a form component.

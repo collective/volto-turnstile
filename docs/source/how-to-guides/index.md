@@ -9,7 +9,7 @@ myst:
 
 # General information
 
-This part of the documentation contains how-to guides, including installation and usage.
+This part of the documentation contains how-to guides, and including installation and usage.
 
 ## Features
 
@@ -29,7 +29,7 @@ To use this product in {term}`Plone` CMS, you needs to include the following {te
 
 ## Translations
 
-This product has been translated into
+This product support the following languages:
 
 - English
 
@@ -134,7 +134,7 @@ Download and install the new {term}`add-on` by running:
 yarn install
 ```
 
-Start volto with:
+Start {term}`Volto` with:
 
 ```shell
 yarn start
@@ -142,8 +142,8 @@ yarn start
 
 ## Enable it
 
-Visit http://localhost:3000/ in a browser, login, so go to the `Site setup`, next to the `Add-ons` control panel, 
-find the {term}`collective.volto.turnstile` {term}`add-on` and click on the `Install` button for enabled it.
+Visit http://localhost:3000/ in a browser, login, so go to `Site setup`, next to `Add-ons` control panel, 
+find the {term}`collective.volto.turnstile` {term}`add-on` and select the `Install` button for enabled it.
 
 ## Settings it
 
@@ -164,7 +164,7 @@ In this control panel, you can configure the following fields:
 ## Use it
 
 To use the {term}`Cloudflare Turnstile` integration you need add the {term}`volto-turnstile` {term}`add-on`, in
-your {term}`Volto` project and use the amazain features incluided.
+your {term}`Volto` project and use the amazing features into this package.
 
 ```{tip}
 For example, to secure your forms, you need yo use the {term}`TurnstileWidget` component in your source code forms
@@ -218,7 +218,8 @@ const ContactForm = (props) => {
 export default ContactForm;
 ```
 
-The code above is pseudocode that you need to adapt to your form; it generates the following widget:
+The source code previous is a example that you need to use in your form, it generates the following
+widget HTML:
 
 <img width="280" alt="Cloudflare Turnstile Widget" src="../images/cloudflare-turnstile-widget.png">
 

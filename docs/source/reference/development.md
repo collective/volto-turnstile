@@ -9,8 +9,10 @@ myst:
 
 # Development
 
-The development of this  {term}`add-on` is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other {term}`Volto` core improvements.
-For this reason, it only works with pnpm and {term}`Volto` 18 (currently in alpha).
+The development of this {term}`add-on` is making in isolation using a new approach using `pnpm` workspaces
+and latest `mrs-developer` and other {term}`Volto` core improvements.
+
+For this reason, it only works with `pnpm` and {term}`Volto` 18 (currently in alpha).
 
 ## Prerequisites ✅
 
@@ -87,25 +89,25 @@ In a separate terminal session, start the frontend.
 make start
 ```
 
-## Lint code
+## Lint Code
 
-Run ESlint, Prettier, and Stylelint in analyze mode.
+Run `ESlint`, `Prettier`, and `Stylelint` in analyze mode.
 
 ```shell
 make lint
 ```
 
-## Format code
+## Format Code
 
-Run ESlint, Prettier, and Stylelint in fix mode.
+Run `ESlint`, `Prettier`, and `Stylelint` in fix mode.
 
 ```shell
 make format
 ```
 
-## i18n
+## Internationalization - i18n
 
-Extract the i18n messages to locales.
+Synchronise the `i18n` messages to `locales` directory.
 
 ```shell
 make i18n
