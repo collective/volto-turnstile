@@ -173,7 +173,7 @@ as the following:
 
 
 ```
-import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget';
+import { TurnstileWidget } from 'volto-turnstile/components/TurnstileWidget';
 import { useTurnstileWidget } from 'volto-turnstile/helpers';
 ...
 
