@@ -164,7 +164,7 @@ In this control panel, you can configure the following fields:
 ## Use it
 
 To use the {term}`Cloudflare Turnstile` integration you need add the {term}`volto-turnstile` {term}`add-on`, in
-your {term}`Volto` project and use the amazing features into this package.
+your {term}`Volto` project and use the amazing features into this {term}`add-on.
 
 ```{tip}
 For example, to secure your forms, you need yo use the {term}`TurnstileWidget` component in your source code forms
@@ -173,8 +173,8 @@ as the following:
 
 
 ```
-import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget/TurnstileWidget';
-import { useTurnstileWidget } from 'volto-turnstile/helpers/Utils/TurnstileWidget';
+import TurnstileWidget from 'volto-turnstile/components/TurnstileWidget';
+import { useTurnstileWidget } from 'volto-turnstile/helpers';
 ...
 
 const ContactForm = (props) => {
