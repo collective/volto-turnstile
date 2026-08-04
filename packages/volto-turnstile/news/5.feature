@@ -1,1 +1,0 @@
-Added the 'settings' unit test for this add-on [macagua]
